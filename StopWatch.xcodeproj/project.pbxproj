@@ -13,6 +13,8 @@
 		046319A726B02DC100A30C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046319A526B02DC100A30C73 /* Main.storyboard */; };
 		046319A926B02DC300A30C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046319A826B02DC300A30C73 /* Assets.xcassets */; };
 		046319AC26B02DC300A30C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046319AA26B02DC300A30C73 /* LaunchScreen.storyboard */; };
+		046319B526B02DE700A30C73 /* UI + Color Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046319B426B02DE700A30C73 /* UI + Color Extensions.swift */; };
+		046319B726B02DF400A30C73 /* CAExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046319B626B02DF400A30C73 /* CAExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		046319A826B02DC300A30C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046319AB26B02DC300A30C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046319AD26B02DC300A30C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046319B426B02DE700A30C73 /* UI + Color Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI + Color Extensions.swift"; sourceTree = "<group>"; };
+		046319B626B02DF400A30C73 /* CAExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		0463199E26B02DC100A30C73 /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
+				046319B326B02DDA00A30C73 /* Extensions */,
 				0463199F26B02DC100A30C73 /* AppDelegate.swift */,
 				046319A126B02DC100A30C73 /* SceneDelegate.swift */,
 				046319A326B02DC100A30C73 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				046319AD26B02DC300A30C73 /* Info.plist */,
 			);
 			path = StopWatch;
+			sourceTree = "<group>";
+		};
+		046319B326B02DDA00A30C73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				046319B426B02DE700A30C73 /* UI + Color Extensions.swift */,
+				046319B626B02DF400A30C73 /* CAExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			files = (
 				046319A426B02DC100A30C73 /* ViewController.swift in Sources */,
 				046319A026B02DC100A30C73 /* AppDelegate.swift in Sources */,
+				046319B526B02DE700A30C73 /* UI + Color Extensions.swift in Sources */,
 				046319A226B02DC100A30C73 /* SceneDelegate.swift in Sources */,
+				046319B726B02DF400A30C73 /* CAExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
